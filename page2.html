@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Favorite Face</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="hearts" id="hearts"></div>
+
+  <div class="card">
+    <div class="eyebrow">Just look at you</div>
+    <div class="frame">
+      <!-- Replace "photo.jpg" with your actual photo filename, kept in the same folder -->
+      <img src="photo2.jpeg" alt="Our photo"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="placeholder" style="display:none; flex-direction:column; align-items:center; justify-content:center; height:100%;">
+        📷<br>Add a photo named<br><b>photo2.jpg</b><br>to this folder
+      </div>
+    </div>
+    <h1 style="font-size:26px;">My favorite face</h1>
+    <p class="msg">
+      Every photo of you reminds me how lucky I am. This is one of my favorites —
+      a little piece of you I get to keep close, today and always.
+      Thank you for loving me, understanding me, and making me feel so special every single day.
+    </p>
+    <div class="stars">✦ ✦ ✦</div>
+    <a class="cta" href="page3.html">Next →</a>
+
+    <div class="dots">
+      <a class="dot" href="index.html"></a>
+      <a class="dot active" href="page2.html"></a>
+      <a class="dot" href="page3.html"></a>
+    </div>
+
+    <div class="nav-row">
+      <a href="index.html">← Back</a>
+      <a href="page3.html">Skip to gift →</a>
+    </div>
+  </div>
+
+<script src="hearts.js"></script>
+</body>
+</html>
